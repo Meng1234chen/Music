@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MengChen的音乐盒子</title>
+		<!-- 引入外部CSS文件 -->
+		<link rel="stylesheet" type="text/css" href="./css/music.css"/>
+	</head>
+	<body>
+		<!-- 横幅 -->
+		<div class="banner">
+			<ul>
+				<li class="m1" datasrc="mp3/1.mp3" title="泡沫- 邓紫棋">
+					<img src="img/1.jpg" width="65px">
+				</li>
+				<li class="m2" datasrc="mp3/2.mp3" title="Sober - bigbang">
+					<img src="img/2.jpg" width="90px">
+				</li>
+				<li class="m3" datasrc="mp3/3.mp3" title="绅士 -薛之谦">
+					<img src="img/3.jpg" width="119px">
+				</li>
+				<li class="m4" datasrc="mp3/4.mp3" title="她说 - 林俊杰">
+					<img src="img/4.jpg" width="90px">
+				</li>
+				<li class="m5" datasrc="mp3/5.mp3" title="baby - justin bieber">
+					<img src="img/5.jpg" width="65px">
+				</li>
+			</ul>
+		</div>
+		
+		
+		<!-- 播放器 -->
+		<div class="music">
+			<div class="m-imag">
+				<img src="img/1.jpg" width="90px">
+			</div>
+			<div class="m-text">
+				泡沫- 邓紫棋
+			</div>
+			<div class="m-btn">
+				<a href="#" class="m-prev" title="上一首"></a>
+				<a href="#" class="m-play" title="播放"></a>
+				<a href="#" class="m-next" title="下一首"></a>
+			</div>
+			<div class="m-close"></div>
+			<audio src="mp3/1.mp3" class="m-mp3"></audio>
+		</div>
+		
+		<script type="text/javascript" src="./js/jQuery-3.6.min.js"></script>
+		<script type="text/javascript" src="js/music.js"></script>
+	</body>
+</html>
